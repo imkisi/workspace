@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Fira Code', monospace;
+    background-color: #fcfcfc;
+    /* background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg opacity='.2' fill='%23BDBDBD' stroke-width='1'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40z'/%3E%3C/g%3E%3C/svg%3E");
+    */
+    background-repeat: repeat;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 435px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: start;
+    gap: 18px;
+    box-sizing: border-box;
+}
+
+h1, h2, p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+span {
+    color: #000 !important;
+}
+
+.title {
+    font-size: 16px;
+    color: #3913e8;
+}
+
+.time {
+    font-size: 12px;
+    color: #636363;
+}
+
+.about {
+    font-size: 12px;
+    color: #636363;
+}
+
+.bio {
+    font-size: 12px;
+    color: #636363;
+    margin-top: -12px;
+}
+
+.email {
+    font-size: 16px;
+    color: #3913e8;
+    text-decoration: none;
+}
+
+.email:hover {
+    text-decoration: underline;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 435px;
+    padding: 24px;
+    text-align: start;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    font-size: 12px;
+    color: #3913e8;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #7356f2;
+}
